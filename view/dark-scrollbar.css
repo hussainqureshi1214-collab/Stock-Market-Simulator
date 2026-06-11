@@ -1,0 +1,77 @@
+/* Dark theme scrollbar styling for PSX Simulator */
+
+/* ScrollPane background */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Scrollbar track */
+.scroll-bar {
+    -fx-background-color: #0a1628;
+    -fx-background-radius: 6;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #0c1a30;
+    -fx-background-radius: 6;
+    -fx-border-color: transparent;
+}
+
+/* Scrollbar thumb (the draggable part) */
+.scroll-bar .thumb {
+    -fx-background-color: #1a3a5c;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #00BFFF;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-background-color: #00A3D9;
+}
+
+/* Hide the increment/decrement arrow buttons */
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}
+
+/* Corner where horizontal and vertical scrollbars meet */
+.scroll-pane .corner {
+    -fx-background-color: #0a1628;
+}
+
+/* Tab pane styling for consistent dark look */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #0f2040;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #0c1a30;
+    -fx-border-color: #1a3a5c;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #142a4a;
+    -fx-border-color: #00BFFF;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #eaecef;
+}
